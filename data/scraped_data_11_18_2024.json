@@ -1,0 +1,63 @@
+[
+  {
+    "scrape_time": "2024-11-18T20:20:14.988517",
+    "keywords": "Software Engineer",
+    "location": "Spain",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Desarrollador Ruby on Rails",
+        "company": "CODILEX",
+        "location": "Gij\u00f3n, Principality of Asturias, Spain",
+        "workplace": "On-site",
+        "job_type": "Full-time",
+        "level": null,
+        "applicants": "29",
+        "salary": "",
+        "posted": "6 days ago",
+        "description": "Distribuidora asturiana l\u00edder en el sector alimentaci\u00f3n, en plena expansi\u00f3n a nivel nacional, necesita contratar de manera urgente programador/a-desarrollador/a con dominio de leguaje  Ruby on Rails</em>  para desarrollo y mantenimiento de ERP de gesti\u00f3n.  \nResponsabilidades-Principales: desarrollo y resoluci\u00f3n de incidencias del sistema de gesti\u00f3n de la empresa.\nRequisitos\n-Certificaciones y experiencia demostrable en programaci\u00f3n, y espec\u00edficamente en lenguaje ruby ( desarrollador full-stack ruby on rails)-Trabajo in situ, no remoto-Incorporaci\u00f3n inmediata-Proactivo/a, resolutivo/a-Contrato indefinido",
+        "skills": [
+          "Ruby"
+        ]
+      },
+      {
+        "title": "DevOps Engineer con experiencia en Azure y Kubernetes",
+        "company": "Mediacore Solutions",
+        "location": "Granada, Andalusia, Spain",
+        "workplace": "Hybrid",
+        "job_type": "Full-time",
+        "level": null,
+        "applicants": "44",
+        "salary": "",
+        "posted": "5 days ago",
+        "description": "\u00bfTienes experiencia en la gesti\u00f3n de infraestructuras en la nube y te apasiona la automatizaci\u00f3n? \u00a1\u00danete a nuestro equipo en una startup en expansi\u00f3n! Estamos desarrollando una plataforma innovadora de servicios automatizados que permite a los usuarios contratar servicios esenciales como energ\u00eda, seguros y telecomunicaciones a trav\u00e9s de  WhatsApp. Buscamos un  DevOps Engineer  con s\u00f3lidos conocimientos en  Azure y  Kubernetes  para ayudarnos a construir una infraestructura escalable y de alto rendimiento que permita conectar a nuestros usuarios de manera r\u00e1pida y segura.\nResponsabilidades:\n      -Dise\u00f1ar, desplegar y mantener la infraestructura en  Kubernetes  y  Azure, asegurando la estabilidad y escalabilidad de la plataforma.\n-Gestionar y optimizar pipelines de  CI/CD  para facilitar despliegues continuos y eficientes, minimizando tiempos de inactividad.\n-Implementar pol\u00edticas avanzadas de seguridad para proteger los datos de los usuarios y asegurar la confidencialidad de la informaci\u00f3n.\n-Colaborar estrechamente con equipos de desarrollo y producto para implementar las mejores pr\u00e1cticas de DevOps y automatizaci\u00f3n, adapt\u00e1ndose a un entorno din\u00e1mico y en constante evoluci\u00f3n.\n\n\nRequisitos:\n      -Experiencia demostrable en  Azure  y  Kubernetes  para la creaci\u00f3n y administraci\u00f3n de infraestructuras en la nube.\n-Conocimientos s\u00f3lidos en  CI/CD  y herramientas de automatizaci\u00f3n de despliegues.\n-Familiaridad con  seguridad en DevOps  y pr\u00e1cticas de DevSecOps para mantener la infraestructura protegida y conforme a las normativas.\n-Actitud proactiva y orientada a la resoluci\u00f3n de problemas, con capacidad de adaptaci\u00f3n en un entorno de startup.\n-Ingl\u00e9s con nivel profesional para poder trabajar con nuestros partners.\n\n\nOfrecemos:\n      -Salario competitivo seg\u00fan capacidades.\n-Oportunidad de formar parte de un equipo en crecimiento y de un proyecto innovador desde sus inicios, donde tus ideas y contribuciones marcar\u00e1n la diferencia.\n-Modalidad h\u00edbrida de trabajo, con base en Granada y posibilidad de teletrabajo.\n-Un entorno din\u00e1mico en una startup, donde cada miembro del equipo tiene voz y contribuye activamente al desarrollo de la plataforma.",
+        "skills": [
+          "Azure",
+          "Kubernetes"
+        ]
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "Mediacore Solutions",
+        "website": "http://mediacore.es",
+        "industry": "Advertising Services",
+        "company_size": "11-50 employees",
+        "headquarters": null,
+        "founded": "Retargeting, RTB (Real Time Biding), SEM, Analytics y Big Data, Producci\u00f3n Creativa Digital, Social Ads, Adserving y Traficado, Big Data, Compra program\u00e1tica, SEO, Inteligencia Artificial, Ciberseguridad, Consultor\u00eda Tecnol\u00f3gica, Consultor\u00eda de Negocios y Procesos, Formaci\u00f3n In-house, Outsourcing, and Talento",
+        "specialties": "Retargeting, RTB (Real Time Biding), SEM, Analytics y Big Data, Producci\u00f3n Creativa Digital, Social Ads, Adserving y Traficado, Big Data, Compra program\u00e1tica, SEO, Inteligencia Artificial, Ciberseguridad, Consultor\u00eda Tecnol\u00f3gica, Consultor\u00eda de Negocios y Procesos, Formaci\u00f3n In-house, Outsourcing, and Talento",
+        "description": "Mediacore Solutions is a cutting-edge digital consultancy specializing in integrating advanced technologies such as artificial intelligence to deliver measurable business outcomes. Focused on enhancing efficiency and innovation, they provide tailored solutions that blend top-tier digital talent, strategic planning, and the latest tech tools. With a diverse team of over 40 professionals across six nationalities, they excel in creating impactful digital strategies for a wide range of industries. Their expertise spans digital development, dynamic branding, and performance marketing, making them a valuable partner in driving business growth through innovation."
+      }
+    ]
+  }
+]

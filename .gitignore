@@ -1,0 +1,7 @@
+__pycache__
+.venv
+.env
+.vscode
+
+cookies.json
+# ^ KEEP COOKIES .JSON HERE, OR ALLOCATE ITS LOCATION TO SOMEWHERE ELSE

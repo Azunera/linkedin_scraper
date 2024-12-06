@@ -1,0 +1,13 @@
+Express, Angular, APL, Ruby, Seaborn, MySQL, GDPR, jQuery, Docker, Matplotlib, Vue.js, Kubernetes, Ruby on Rails, Rust, 
+Couchbase, Pillow, SQLite, Elasticsearch, Fortran, PyTorch, C, Crystal, BeautifulSoup, T-SQL, TensorFlow, ASP.NET, Swift, 
+DataBricks, Java, Delphi, Scikit-learn, CircleCI, Lisp, GCP, SQL, F#, AWS, Kotlin, IBM Cloud, Snowflake, Assembly, 
+Apache Kafka, Pandas, Symfony, Redis, Travis CI, Objective-C, PHP, Gatsby, 
+Spring Boot, Bash, PowerShell, Keras, Spring, Next.js, Django, PIL, Jenkins, 
+Virtual Basic, Chai, MariaDB, Groovy, Playwright, DynamoDB, Scala, COBOL, 
+React.js, Haskell, Apache Spark, Jupyter, visualbasic, C#, Alibaba Cloud, OpenShift, 
+R, Amazon Aurora, Erlang, BigQuery, HTML, MongoDB, C++, Sass, CSS, VBA, Hadoop, 
+Laravel, Airflow, Golang, Perl, Lavarel,Flask, Flutter, Oracle, Clojure, Lua, Dart, 
+Selenium, Heroku, DB2, JavaScript, RedShift,  Neo4j, DigitalOcean, Elixir, OCaml, 
+Spark, PySpark, Cassandra, NumPy, GitLab CI, Pascal, Python, SciPy, VB.NET, TypeScript, 
+CouchDB, Firestore, NoSQL, Firebase, Go, React, FastAPI, Node.js, GraphQL, Azure, 
+PostgreSQL, Kafka, OpenCV, Solidity, SAS, Julia, Shell

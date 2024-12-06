@@ -1,0 +1,20 @@
+{
+"language": [ "Python", "Java", "C", "C++", "C#", "R", "Rust", "Go", "Golang","JavaScript",
+    "VBA", "T-SQL", "PowerShell", "HTML", "Scala", "SAS", "CSS", "TypeScript", "Perl", "Ruby", "PHP", "Julia", 
+    "Rust", "Crystal", "Swift", "Kotlin", "Virtual Basic", "Assembly", "Groovy", "VB.NET", "COBOL", 
+    "Solidity", "Lua", "APL", "Sass", "Clojure", "Fortran", "Dart", "Elixir", "Haskell", "F#", 
+    "Objective-C", "Erlang", "Lisp", "Delphi", "Pascal", "OCaml", "visualbasic"
+],
+
+"framework": ["Angular", "Node.js", "Django", "Flask", "Vue.js", "Express", "FastAPI", "jQuery", "Ruby on Rails", "ASP.NET", "React.js", "Next.js", "Laravel", "Gatsby", "Symfony", "Lavarel", "Spring Boot"],
+
+"library": ["Spark", "Kafka", "React", "Hadoop", "Spring", "Airflow", "Pandas", "GraphQL", "NumPy", "TensorFlow", "PyTorch", "PySpark", "Selenium", "Playwright", "GDPR", "Scikit-learn", "Jupyter", "Matplotlib", "Seaborn", "Flutter", "Keras", "BeautifulSoup", "PIL", "Pillow", "SciPy", "Chai", "OpenCV"],
+
+"cloud": ["AWS", "Azure", "Snowflake", "DataBricks", "RedShift", "GCP", "Oracle", "BigQuery", "IBM Cloud", "Alibaba Cloud", "DigitalOcean", "Heroku"],
+
+"database": ["MySQL", "Cassandra", "PostgreSQL", "MongoDB", "Elasticsearch", "DynamoDB", "Redis", "DB2", "Neo4j", "MariaDB", "Firebase", "Couchbase", "SQLite", "Firestore", "CouchDB", "MariaDB",  "Amazon Aurora", "GraphQL"],
+
+"devop": ["Jenkins", "GitLab CI", "CircleCI", "Travis CI", "Docker", "Kubernetes", "OpenShift"],
+
+"other_languages": ["SQL", "NoSQL", "MongoDB", "HTML", "CSS", "Bash", "Shell", "VBA", "SAS", "T-SQL"]
+}
