@@ -29,6 +29,8 @@ Running example:
 python main.py --search Software_Engineer --location Spain  --experience Entry-level --posted Past_24_hours --skills_keywords_path predlist.txt --skills_keywords_path_category predlist_categorized.json  --filter_by_skills --save_in_database
 ```
 
+Here is the list of parameters:
+
 #### `headless`            
 Run the scraper in headless mode (default).
 
