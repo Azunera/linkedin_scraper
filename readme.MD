@@ -1,8 +1,8 @@
-## LinkedIn Scraper
+# LinkedIn Scraper
 
 A LinkedIn Scraper that can extract data about jobs and companies. 
 
-### Installation
+## Installation
 
 Python 3.11 is required.
 
@@ -11,7 +11,7 @@ Then install the required libraries:
 pip install -r requirements.txt
 ```
 
-### Set Up
+## Set Up
 
 Create a .env file with the email and password for linkedin, and optionally if you are going to save the data directly into a database, db_api_key:
 ```
@@ -20,7 +20,7 @@ PASSWORD = ""
 DB_API_KEY= "" 
 ```
 
-#### API
+## API
 
 Here I show all the options arguments option on terminal, the options below offer you specify parameters for search, only --search is mandatory, which is the title/name of the job looking for. Another important point to consider is skills section, the program  will also extract the skills keywords for each job, but for this a keyword list must be provided, be it at --keywords, or --keywords_path; Filter by skills will let you only find jobs with the skills you are looking for.
 
@@ -29,7 +29,7 @@ Running example:
 python main.py --search Software_Engineer --location Spain  --experience Entry-level --posted Past_24_hours --skills_keywords_path predlist.txt --skills_keywords_path_category predlist_categorized.json  --filter_by_skills --save_in_database
 ```
 
-### `headless`            
+#### `headless`            
 Run the scraper in headless mode (default).
 
 #### `find_companies`
@@ -87,6 +87,6 @@ As the name sugggests, you can look for specific jobs in companies here.
 #### `posted POSTED`      
  Time range in which the job was posted; Options: Any_time, Past_month, Past_week, Past_24_hours.
 
-### `benefits [BENEFITS ...]`
+#### `benefits [BENEFITS ...]`
 Try to find benefits for job such as pensions plans,etc. 
 
