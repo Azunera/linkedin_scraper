@@ -170,9 +170,10 @@ def parse_job_page(page, html: HTMLParser, job_card_num, skills_list, skills_dic
     description_data = clean_job_html_description(html.css_first('div#job-details div.mt4').html)
 
 
+
     new_job = Job(
         title      =  extract_text(html, "h1 a"),
-        company    =  extract_text(html, f'div.jobs-search-two-pane__job-card-container--viewport-tracking-{job_card_num} span.job-card-container__primary-description'),
+        company    =  extract_text(html, "div.job-details-jobs-unified-top-card__company-name a"),
         salary     =  job_details['salary'],
         workplace  =  job_details['work_place'],
         job_type   =  job_details['job_type'],
@@ -221,11 +222,7 @@ def parse_company_page(context, page1_html, companies_list):
     local_company_name = extract_text(html, 'h1.org-top-card-summary__title')  
     if local_company_name is None:
         print(f'Unclaimed page for company link: {company_page_link}, company name: {local_company_name}')
-
     
-    base = html.css_first('dl.overflow-hidden')
-    
-
     website_data = None
     company_size_data = None
     headquarters_data = None
@@ -235,7 +232,9 @@ def parse_company_page(context, page1_html, companies_list):
     
     n = 0
     d = 0  
-    
+
+    base = 'dl.overflow-hidden'
+
     try:
         for i in range(7):
             n += 1
@@ -245,7 +244,6 @@ def parse_company_page(context, page1_html, companies_list):
                     d+= 1
             except:
                 pass
-            
             match data[0]:
                 case 'Website':
                     website_data = data[1]
@@ -265,7 +263,6 @@ def parse_company_page(context, page1_html, companies_list):
                     founded_data = data[1]
     except:
         pass
-                
             
             
     

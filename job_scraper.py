@@ -202,7 +202,7 @@ class inJobScraper:
             companies_list = []
             jobs_list = []
 
-            while page_num < 1:
+            while True:
                 page_num += 1
                 page_button = page.locator(f'button[aria-label="Page {page_num}"]')
 
@@ -217,7 +217,7 @@ class inJobScraper:
                 date = datetime.today().strftime("%m_%d_%Y")
                 
                 #<---- SCRAPPING LINKEDIN JOB CARD NUMS ---->
-                for job_card_num in range(0,1): #25 is LinkedIn's max job cards per page
+                for job_card_num in range(0,25): #25 is LinkedIn's max job cards per page
                     job_card = page.locator(f'li.relative.scaffold-layout__list-item:nth-child({job_card_num + 1})')
                     try: job_card.scroll_into_view_if_needed()
                     except: break

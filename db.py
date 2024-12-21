@@ -98,6 +98,8 @@ def upload_companies(companies_list) :
                     website=company[0].website,
                     industry= company[0].industry,
                     founded=company[0].founded,
+                    headquarters=company[0].headquarters,
+                    company_size=company[0].company_size,
                     specialties=company[0].specialties,
                     description=company[0].description,
                     logo=company[1],
@@ -115,7 +117,6 @@ def upload_jobs(jobs_list: list, skills_dict, date):
   
     for job in jobs_list:
         company_data = get_company_for_linking(job.company)
-
         if company_data is None:
             company_data = []
         
@@ -123,9 +124,6 @@ def upload_jobs(jobs_list: list, skills_dict, date):
             skill_data = [skill_object for skill_object in skill_objects_list if skill_object.name in job.skills]
         else:
             skill_data = []
-            
-        print(skill_data, 'skills_data')
-        print(company_data, 'company_data')
 
         new_job = JobDb(
             title=job.title,
@@ -225,5 +223,5 @@ def get_company_for_linking(company=None, all=False):
             company_data =  [company.name for company in session.query(Company).all()]
     return company_data 
     
-# Base.metadata.drop_all(engine)
-# initialize_database()
+Base.metadata.drop_all(engine)
+initialize_database()
