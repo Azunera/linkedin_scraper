@@ -1,4 +1,4 @@
-from sqlalchemy       import create_engine, Column, Integer, Numeric, String, Table, ForeignKey, UniqueConstraint, select, func, inspect
+from sqlalchemy       import create_engine, Column, LargeBinary, Integer, Numeric, String, Table, ForeignKey, UniqueConstraint, select, func, inspect
 from sqlalchemy.orm   import Session, declarative_base, relationship, sessionmaker
 from dataclasses_list import Job
 from dotenv           import dotenv_values
@@ -21,7 +21,11 @@ class JobDb(Base):
     salary = Column(String)
     date = Column(String)
     description = Column(String)
+    
+    company = relationship("Company", secondary="job_companies", back_populates="jobs")
     skills = relationship("Skill", secondary="job_skills", back_populates="jobs")
+    
+    link = Column(String)
     
 class Skill(Base):
     __tablename__ = 'skill'
@@ -34,6 +38,24 @@ class Skill(Base):
 
     jobs = relationship("JobDb", secondary="job_skills", back_populates="skills")
     
+    
+class Company(Base):
+    __tablename__  = 'company'
+    
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    website = Column(String)
+    industry = Column(String)
+    company_size = Column(String)
+    headquarters = Column(String)
+    founded = Column(String)
+    specialties = Column(String)
+    description = Column(String)
+    logo = Column(LargeBinary)
+    
+    jobs = relationship("JobDb", secondary="job_companies", back_populates="company")
+
+
 class JobSkills(Base):
     __tablename__  = 'job_skills'
     
@@ -41,7 +63,16 @@ class JobSkills(Base):
     job_id         = Column(Integer, ForeignKey('job.id'), nullable=False)
     skill_id       = Column(Integer, ForeignKey('skill.id'), nullable=False)
     __table_args__ = (UniqueConstraint('job_id', 'skill_id', name='uq_job_skill'),)
-
+    
+class JobCompanies(Base):
+    __tablename__  = 'job_companies'
+    
+    id             = Column(Integer, primary_key=True)
+    job_id         = Column(Integer, ForeignKey('job.id'), nullable=False)
+    company_id     = Column(Integer, ForeignKey('company.id'), nullable=False)
+    __table_args__ = (UniqueConstraint('job_id', 'company_id', name='uq_job_company'),)
+    
+    
 def check_tables_existance():
     inspector = inspect(engine)
     table_names = inspector.get_table_names()
@@ -54,20 +85,47 @@ def check_tables_existance():
 def initialize_database():
     """Ensures that all necessary tables exist in the database."""
     Base.metadata.create_all(engine)
-# Base.metadata.drop_all(engine)
-# initialize_database()
+
     
+def upload_companies(companies_list) :
+    with Session(engine) as session:
+        all_companies = get_company_for_linking(all=True)
+
+        for company in companies_list:
+            if company[0].title not in all_companies:
+                new_company = Company(
+                    name=company[0].title,
+                    website=company[0].website,
+                    industry= company[0].industry,
+                    founded=company[0].founded,
+                    specialties=company[0].specialties,
+                    description=company[0].description,
+                    logo=company[1],
+                )
+                
+                session.add(new_company)
+                session.commit()
+        
 def upload_jobs(jobs_list: list, skills_dict, date):
+    '''Extra note! This date and the code all related to it, its just designed for saying the scrapping data day, so kinda saying that, "all these jobs were available at least until this date" '''
     '''Due to the need of skills in order to upload jobs linked with skills. When used along upload skills, this must be used as the last one, as we want the upload_skills data complete'''
 
     with Session(engine) as session:
         skill_objects_list = get_skills_for_linking(skills_dict) 
   
     for job in jobs_list:
+        company_data = get_company_for_linking(job.company)
+
+        if company_data is None:
+            company_data = []
+        
         if len(job.skills) > 0: 
             skill_data = [skill_object for skill_object in skill_objects_list if skill_object.name in job.skills]
         else:
-            skill_data = None
+            skill_data = []
+            
+        print(skill_data, 'skills_data')
+        print(company_data, 'company_data')
 
         new_job = JobDb(
             title=job.title,
@@ -79,7 +137,12 @@ def upload_jobs(jobs_list: list, skills_dict, date):
             salary=job.salary,
             date = date,
             description=job.description,
-            skills = skill_data
+            link = job.link,
+            
+            skills = skill_data,
+            company = company_data,
+            
+
         )
         
         session.add(new_job)
@@ -93,6 +156,7 @@ def upload_skills(skills_dict, skills_categorized, jobs_len):
     
     Session = sessionmaker(bind=engine)
     session = Session()
+
 
     # Preparing local and db skills data.
     local_skills_data  = {name: [skill_count, 0] for name, skill_count in skills_dict.items()}
@@ -151,3 +215,15 @@ def get_skills_for_linking(skills_dict):
     return skill_object_list 
     
     
+def get_company_for_linking(company=None, all=False):
+
+    with Session(engine) as session:
+        if not all:
+            company_data = session.query(Company).filter(Company.name == company).first()
+            company_data =  [company_data] if company_data else []
+        else:
+            company_data =  [company.name for company in session.query(Company).all()]
+    return company_data 
+    
+# Base.metadata.drop_all(engine)
+# initialize_database()

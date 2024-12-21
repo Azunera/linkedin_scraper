@@ -1,0 +1,356 @@
+[
+  {
+    "scrape_time": "2024-12-21T00:07:11.825026",
+    "keywords": "Software Engineer",
+    "location": "United Kingdom",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Research Engineer (Must be in UK)",
+        "company": null,
+        "location": "London, England, United Kingdom",
+        "country": "United Kingdom",
+        "workplace": "Hybrid",
+        "job_type": "Full-time",
+        "level": "Entry level",
+        "applicants": "45",
+        "salary": "",
+        "posted": "Reposted 1 day ago",
+        "description": "About PolyAI:\n\nPolyAI is a leader in automating customer service through innovative voice technology. Our voice assistants empower businesses to deliver exceptional customer service at every interaction. We are seeking a dedicated and innovative Research Engineer to join our team and enhance our machine learning models.\n\nJob Description:\n\nAs a Research Engineer at PolyAI, you will play a crucial role in setting up and optimizing the data pipeline for training and evaluating our models. You will also focus on optimizing our training infrastructure and preparing trained models for production. Your work will primarily involve Automatic Speech Recognition (ASR), Large Language Models (LLM), and Text-to-Speech (TTS) technologies.\n\nRequirements\n\n      -Develop libraries and tools to assist with research projects, such as evaluation suites, optimized LLM inference, synthetic data pipelines etc\n-Manage and maintain machine learning datasets and associated tooling, ensuring it provides the necessary data for model training and continuous improvement\n-Assist in the creation of synthetic data, customer data annotation, ensuring rigorous data quality control\n-Optimize GPU utilization and maintain an efficient platform for ML training and inference in production\n-Assist in productization of research projects\n-Work closely with product and engineering teams to ensure alignment with business and production objectives\n-Collaborate with the legal and compliance teams to address compliance and data privacy concerns\n-Stay current with the latest advancements in machine learning, ASR, TTS, and LLM to continuously enhance our technologies\n\n\n\n\nRequirements:\n\n      -A degree in Computer Science or a related field, or equivalent industry experience\n-Hands-on experience in tuning machine learning models and building evaluation frameworks\n-Strong understanding of data quality standards and annotation processes\n-Proficiency in Python and familiarity with relevant ML frameworks and libraries (e.g., PyTorch)\n-Experience with cloud services such as AWS, GCP, or Azure\n-Excellent verbal and written communication skills, with the ability to convey complex technical concepts to a diverse audience\n-A passion for tackling technical challenges and driving practical solutions\n\n\n\n\nPreferred Qualifications:\n\n      -Expertise in the latest transformer modifications for efficiency\n-Experience in optimizing GPU training and utilization\n-Familiarity with distributed model training systems\n-Experience with large-scale data pipelines or production ML systems\n\n\n\nWhy Join PolyAI: At PolyAI, we are dedicated to pushing the boundaries of voice technology and machine learning. You will have the opportunity to work with a talented and diverse team, contribute to groundbreaking projects, and make a significant impact on the future of customer service automation. We offer a dynamic and inclusive work environment, competitive compensation, and opportunities for professional growth.\n\nBenefits\n\n\ud83d\udcb0 Participation in the company's employee share options plan\n\n\ud83c\udfdd 25 days holiday, plus bank holidays\n\n\ud83c\udfe1 Flexible working from home policy plus a one-off WFH allowance when you join\n\n\ud83c\udf0e Work from outside of the UK for up to 6 months each year\n\n\ud83e\udde1 Enhanced parental leave\n\n\ud83d\udcda Yearly learning budget\n\n\ud83d\udeb2 Bike2Work scheme\n\n\ud83d\udcda Annual learning and development allowance\n\n\ud83c\udfe1 One-off WFH allowance when you join\n\n\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67 Company-funded fertility and family-forming programmes\n\n\ud83c\udf38 Menopause care programme with Maven\n\n\ud83c\udfe5 Private healthcare and dental cover, discounts on gym members and relaxation apps, and access to a range of mental health programs\n\nEqual Opportunity Statement:\n\n</em>PolyAI is proud to be an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\n</em>All employment decisions at PolyAI will be based on the business needs without attention to ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, neurodiversity status or disability status.</em>",
+        "skills": [
+          "Python",
+          "AWS",
+          "GCP",
+          "Azure"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4103690835&f_E=1%2C2&f_TPR=r604800&geoId=101165590&keywords=Software%20Engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "PolyAI",
+        "website": "https://poly.ai",
+        "industry": "Software Development",
+        "company_size": "51-200 employees",
+        "headquarters": null,
+        "founded": "Machine Learning, Conversational AI, Voice experiences, Voice Assistants, Customer experience, Digital Transformation, and Artificial Intelligence",
+        "specialties": "Machine Learning, Conversational AI, Voice experiences, Voice Assistants, Customer experience, Digital Transformation, and Artificial Intelligence",
+        "description": "PolyAI builds enterprise conversational assistants that carry on natural conversations with customers to solve their problems. Our conversational assistants understand customers, regardless of what they say or how they say it."
+      }
+    ]
+  },
+  {
+    "scrape_time": "2024-12-21T01:03:57.458888",
+    "keywords": "Software Engineer",
+    "location": "United Kingdom",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Research Engineer (Must be in UK)",
+        "company": null,
+        "location": "London, England, United Kingdom",
+        "country": "United Kingdom",
+        "workplace": "Hybrid",
+        "job_type": "Full-time",
+        "level": "Entry level",
+        "applicants": "45",
+        "salary": "",
+        "posted": "Reposted 1 day ago",
+        "description": "About PolyAI:\n\nPolyAI is a leader in automating customer service through innovative voice technology. Our voice assistants empower businesses to deliver exceptional customer service at every interaction. We are seeking a dedicated and innovative Research Engineer to join our team and enhance our machine learning models.\n\nJob Description:\n\nAs a Research Engineer at PolyAI, you will play a crucial role in setting up and optimizing the data pipeline for training and evaluating our models. You will also focus on optimizing our training infrastructure and preparing trained models for production. Your work will primarily involve Automatic Speech Recognition (ASR), Large Language Models (LLM), and Text-to-Speech (TTS) technologies.\n\nRequirements\n\n      -Develop libraries and tools to assist with research projects, such as evaluation suites, optimized LLM inference, synthetic data pipelines etc\n-Manage and maintain machine learning datasets and associated tooling, ensuring it provides the necessary data for model training and continuous improvement\n-Assist in the creation of synthetic data, customer data annotation, ensuring rigorous data quality control\n-Optimize GPU utilization and maintain an efficient platform for ML training and inference in production\n-Assist in productization of research projects\n-Work closely with product and engineering teams to ensure alignment with business and production objectives\n-Collaborate with the legal and compliance teams to address compliance and data privacy concerns\n-Stay current with the latest advancements in machine learning, ASR, TTS, and LLM to continuously enhance our technologies\n\n\n\n\nRequirements:\n\n      -A degree in Computer Science or a related field, or equivalent industry experience\n-Hands-on experience in tuning machine learning models and building evaluation frameworks\n-Strong understanding of data quality standards and annotation processes\n-Proficiency in Python and familiarity with relevant ML frameworks and libraries (e.g., PyTorch)\n-Experience with cloud services such as AWS, GCP, or Azure\n-Excellent verbal and written communication skills, with the ability to convey complex technical concepts to a diverse audience\n-A passion for tackling technical challenges and driving practical solutions\n\n\n\n\nPreferred Qualifications:\n\n      -Expertise in the latest transformer modifications for efficiency\n-Experience in optimizing GPU training and utilization\n-Familiarity with distributed model training systems\n-Experience with large-scale data pipelines or production ML systems\n\n\n\nWhy Join PolyAI: At PolyAI, we are dedicated to pushing the boundaries of voice technology and machine learning. You will have the opportunity to work with a talented and diverse team, contribute to groundbreaking projects, and make a significant impact on the future of customer service automation. We offer a dynamic and inclusive work environment, competitive compensation, and opportunities for professional growth.\n\nBenefits\n\n\ud83d\udcb0 Participation in the company's employee share options plan\n\n\ud83c\udfdd 25 days holiday, plus bank holidays\n\n\ud83c\udfe1 Flexible working from home policy plus a one-off WFH allowance when you join\n\n\ud83c\udf0e Work from outside of the UK for up to 6 months each year\n\n\ud83e\udde1 Enhanced parental leave\n\n\ud83d\udcda Yearly learning budget\n\n\ud83d\udeb2 Bike2Work scheme\n\n\ud83d\udcda Annual learning and development allowance\n\n\ud83c\udfe1 One-off WFH allowance when you join\n\n\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67 Company-funded fertility and family-forming programmes\n\n\ud83c\udf38 Menopause care programme with Maven\n\n\ud83c\udfe5 Private healthcare and dental cover, discounts on gym members and relaxation apps, and access to a range of mental health programs\n\nEqual Opportunity Statement:\n\n</em>PolyAI is proud to be an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\n</em>All employment decisions at PolyAI will be based on the business needs without attention to ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, neurodiversity status or disability status.</em>",
+        "skills": [
+          "Python",
+          "AWS",
+          "GCP",
+          "Azure"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4103690835&f_E=1%2C2&f_TPR=r604800&geoId=101165590&keywords=Software%20Engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "PolyAI",
+        "website": "https://poly.ai",
+        "industry": null,
+        "company_size": null,
+        "headquarters": null,
+        "founded": "Machine Learning, Conversational AI, Voice experiences, Voice Assistants, Customer experience, Digital Transformation, and Artificial Intelligence",
+        "specialties": "Machine Learning, Conversational AI, Voice experiences, Voice Assistants, Customer experience, Digital Transformation, and Artificial Intelligence",
+        "description": "PolyAI builds enterprise conversational assistants that carry on natural conversations with customers to solve their problems. Our conversational assistants understand customers, regardless of what they say or how they say it."
+      }
+    ]
+  },
+  {
+    "scrape_time": "2024-12-21T01:08:21.854712",
+    "keywords": "Software Engineer",
+    "location": "United States",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Software Engineer Intern (Summer 2025)",
+        "company": null,
+        "location": "Greater Minneapolis-St. Paul Area",
+        "country": "United States",
+        "workplace": "Hybrid",
+        "job_type": "Internship",
+        "level": null,
+        "applicants": "100",
+        "salary": "",
+        "posted": "6 days ago",
+        "description": "Overview\n\nTactile Medical is offering internship opportunities for students who are seeking to accelerate their professional experience and career trajectory. Join a  driven  organization that is a  compassionate  leader in helping people living with chronic illnesses live better lives with at home therapy devices.\n\nIn this 11-week internship program, our interns will start out in our corporate headquarters campus in Minneapolis, MN for the first three days to learn from leaders across the entire organization. Our leaders will walk through how each of Tactile's  collaborative  teams identify patients, provide them with care, and ensure their lives are improved. We will provide an exclusively  transparent  view on how we at Tactile  embrace change  by proactively innovating our products, processes, and challenge each other.\n\nAfter the first three days on campus, each intern is paired with a mentor and team to dive into everyone\u2019s specialized internship focus. Our interns will be given an authentic experience by working through real professional scenarios and contributing to meaningful projects. On the final day, our interns will return to campus to celebrate their accomplishments and reflect on how they made a direct impact on helping people live a better quality of life.\n\nProgram Details\n\n      -11-week program, first three days and the last day at our Minneapolis corporate office\n-Full time during normal business hours (40 hours a week, Monday through Friday)\n-Tours of different sites and departments (Manufacturing, Sales, Clinical, and others)\n-One on one mentorship provided for each intern\n-Social and community outreach events\n-Team building and career development activities\n-Gain industry knowledge from a leading medical device company\n-Live our corporate values to help improve peoples' lives\n-Networking with our interns and professionals from a variety of departments\n-Learn from a personal internship to gain applicable professional skills and experience\n-Present internship accomplishments on final day of internship program\n-Competitive hourly pay rate\n-Eligible for contribution towards academic credits\n\n\n\nResponsibilities\n\nPrimary Responsibilities:\n\n      -Develop, debug, and test software in support of the Salesforce CoE team\n-Assist with developing, implementing workflow automation on our Salesforce.com platform using a combination of declarative and programmatic solutions on the platform.\n-Create proof of concept code to evaluate ideas, explore new processes and technologies\n-Support and participate in all phases of the software development life cycle, including requirements analysis, design, implementation, integration, and test of mobile and desktop applications.\n-Assist in technical POCs to create innovative technical solutions\n-Create, manage, and maintain documentation\n-Work independently and collaboratively with a mentor and/or team\n-Organize and manage assigned tasks in a timely manner\n-Problem solve and critically think through obstacles\n-Apply new knowledge and data to accurately complete assignments\n-Embrace working toward the end goal of helping others live a better quality of life\n\n\n\nQualifications\n\nEducation & Experience:\n\nRequired\n\n      -Enrollment in an accredited bachelor's degree program as a rising Sophomore, Junior, or Senior\n-Enrolled in Computer Science, Engineering, or similar related degree\n-Proficient with code development in a modern functional or object-oriented programming language such as C#, Java, JavaScript, Python, SQL, etc.\n-Must be legally authorized to work in the United States without the need for employment sponsorship, now or at any time in the future\n\n\n\nPreferred\n\n      -Familiar with Agile and Scrum software development processes\n-Work collaboratively and efficiently on a fast-paced international team in a virtual environment\n-Strong academic track record (GPA of 3.0 or above)\n-Relevant work or internship experience in a professional setting (e.g., internships, externships, co-ops, summer positions, school jobs, and others)\n-Relevant course work or research experience relating to internship\n-Experience using Microsoft Office Suite (e.g., Word, Excel, Outlook, PowerPoint, and others)",
+        "skills": [
+          "C#",
+          "Java",
+          "JavaScript",
+          "Python",
+          "SQL"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4100716063&f_E=1%2C2&f_TPR=r604800&geoId=103644278&keywords=Software%20Engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "Tactile Medical",
+        "website": "https://www.tactilemedical.com/",
+        "industry": null,
+        "company_size": null,
+        "headquarters": null,
+        "founded": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "specialties": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "description": "Tactile Medical is one of the fastest growing companies in medical devices. As a leader in treatment options for lymphedema and venous ulcer therapies, Tactile Medical develops advanced home therapy devices to improve health and quality of life for patients with chronic swelling . Headquartered in Minneapolis, Minnesota, we advocate for patient access and serve tens of thousands of patients through a direct national network of product specialists and trainers, reimbursement experts, patient advocates, and clinical staff."
+      }
+    ]
+  },
+  {
+    "scrape_time": "2024-12-21T02:23:45.134405",
+    "keywords": "Software Engineer",
+    "location": "United States",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Software Engineer Intern (Summer 2025)",
+        "company": null,
+        "location": "Greater Minneapolis-St. Paul Area",
+        "country": "United States",
+        "workplace": "Hybrid",
+        "job_type": "Internship",
+        "level": null,
+        "applicants": "100",
+        "salary": "",
+        "posted": "6 days ago",
+        "description": "Overview\n\nTactile Medical is offering internship opportunities for students who are seeking to accelerate their professional experience and career trajectory. Join a  driven  organization that is a  compassionate  leader in helping people living with chronic illnesses live better lives with at home therapy devices.\n\nIn this 11-week internship program, our interns will start out in our corporate headquarters campus in Minneapolis, MN for the first three days to learn from leaders across the entire organization. Our leaders will walk through how each of Tactile's  collaborative  teams identify patients, provide them with care, and ensure their lives are improved. We will provide an exclusively  transparent  view on how we at Tactile  embrace change  by proactively innovating our products, processes, and challenge each other.\n\nAfter the first three days on campus, each intern is paired with a mentor and team to dive into everyone\u2019s specialized internship focus. Our interns will be given an authentic experience by working through real professional scenarios and contributing to meaningful projects. On the final day, our interns will return to campus to celebrate their accomplishments and reflect on how they made a direct impact on helping people live a better quality of life.\n\nProgram Details\n\n      -11-week program, first three days and the last day at our Minneapolis corporate office\n-Full time during normal business hours (40 hours a week, Monday through Friday)\n-Tours of different sites and departments (Manufacturing, Sales, Clinical, and others)\n-One on one mentorship provided for each intern\n-Social and community outreach events\n-Team building and career development activities\n-Gain industry knowledge from a leading medical device company\n-Live our corporate values to help improve peoples' lives\n-Networking with our interns and professionals from a variety of departments\n-Learn from a personal internship to gain applicable professional skills and experience\n-Present internship accomplishments on final day of internship program\n-Competitive hourly pay rate\n-Eligible for contribution towards academic credits\n\n\n\nResponsibilities\n\nPrimary Responsibilities:\n\n      -Develop, debug, and test software in support of the Salesforce CoE team\n-Assist with developing, implementing workflow automation on our Salesforce.com platform using a combination of declarative and programmatic solutions on the platform.\n-Create proof of concept code to evaluate ideas, explore new processes and technologies\n-Support and participate in all phases of the software development life cycle, including requirements analysis, design, implementation, integration, and test of mobile and desktop applications.\n-Assist in technical POCs to create innovative technical solutions\n-Create, manage, and maintain documentation\n-Work independently and collaboratively with a mentor and/or team\n-Organize and manage assigned tasks in a timely manner\n-Problem solve and critically think through obstacles\n-Apply new knowledge and data to accurately complete assignments\n-Embrace working toward the end goal of helping others live a better quality of life\n\n\n\nQualifications\n\nEducation & Experience:\n\nRequired\n\n      -Enrollment in an accredited bachelor's degree program as a rising Sophomore, Junior, or Senior\n-Enrolled in Computer Science, Engineering, or similar related degree\n-Proficient with code development in a modern functional or object-oriented programming language such as C#, Java, JavaScript, Python, SQL, etc.\n-Must be legally authorized to work in the United States without the need for employment sponsorship, now or at any time in the future\n\n\n\nPreferred\n\n      -Familiar with Agile and Scrum software development processes\n-Work collaboratively and efficiently on a fast-paced international team in a virtual environment\n-Strong academic track record (GPA of 3.0 or above)\n-Relevant work or internship experience in a professional setting (e.g., internships, externships, co-ops, summer positions, school jobs, and others)\n-Relevant course work or research experience relating to internship\n-Experience using Microsoft Office Suite (e.g., Word, Excel, Outlook, PowerPoint, and others)",
+        "skills": [
+          "C#",
+          "Java",
+          "JavaScript",
+          "Python",
+          "SQL"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4100716063&f_E=1%2C2&f_TPR=r604800&geoId=103644278&keywords=Software%20Engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "Tactile Medical",
+        "website": "https://www.tactilemedical.com/",
+        "industry": null,
+        "company_size": null,
+        "headquarters": null,
+        "founded": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "specialties": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "description": "Tactile Medical is one of the fastest growing companies in medical devices. As a leader in treatment options for lymphedema and venous ulcer therapies, Tactile Medical develops advanced home therapy devices to improve health and quality of life for patients with chronic swelling . Headquartered in Minneapolis, Minnesota, we advocate for patient access and serve tens of thousands of patients through a direct national network of product specialists and trainers, reimbursement experts, patient advocates, and clinical staff."
+      }
+    ]
+  },
+  {
+    "scrape_time": "2024-12-21T02:28:41.385390",
+    "keywords": "Software Engineer",
+    "location": "United States",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Software Engineer Intern (Summer 2025)",
+        "company": null,
+        "location": "Greater Minneapolis-St. Paul Area",
+        "country": "United States",
+        "workplace": "Hybrid",
+        "job_type": "Internship",
+        "level": null,
+        "applicants": "100",
+        "salary": "",
+        "posted": "6 days ago",
+        "description": "Overview\n\nTactile Medical is offering internship opportunities for students who are seeking to accelerate their professional experience and career trajectory. Join a  driven  organization that is a  compassionate  leader in helping people living with chronic illnesses live better lives with at home therapy devices.\n\nIn this 11-week internship program, our interns will start out in our corporate headquarters campus in Minneapolis, MN for the first three days to learn from leaders across the entire organization. Our leaders will walk through how each of Tactile's  collaborative  teams identify patients, provide them with care, and ensure their lives are improved. We will provide an exclusively  transparent  view on how we at Tactile  embrace change  by proactively innovating our products, processes, and challenge each other.\n\nAfter the first three days on campus, each intern is paired with a mentor and team to dive into everyone\u2019s specialized internship focus. Our interns will be given an authentic experience by working through real professional scenarios and contributing to meaningful projects. On the final day, our interns will return to campus to celebrate their accomplishments and reflect on how they made a direct impact on helping people live a better quality of life.\n\nProgram Details\n\n      -11-week program, first three days and the last day at our Minneapolis corporate office\n-Full time during normal business hours (40 hours a week, Monday through Friday)\n-Tours of different sites and departments (Manufacturing, Sales, Clinical, and others)\n-One on one mentorship provided for each intern\n-Social and community outreach events\n-Team building and career development activities\n-Gain industry knowledge from a leading medical device company\n-Live our corporate values to help improve peoples' lives\n-Networking with our interns and professionals from a variety of departments\n-Learn from a personal internship to gain applicable professional skills and experience\n-Present internship accomplishments on final day of internship program\n-Competitive hourly pay rate\n-Eligible for contribution towards academic credits\n\n\n\nResponsibilities\n\nPrimary Responsibilities:\n\n      -Develop, debug, and test software in support of the Salesforce CoE team\n-Assist with developing, implementing workflow automation on our Salesforce.com platform using a combination of declarative and programmatic solutions on the platform.\n-Create proof of concept code to evaluate ideas, explore new processes and technologies\n-Support and participate in all phases of the software development life cycle, including requirements analysis, design, implementation, integration, and test of mobile and desktop applications.\n-Assist in technical POCs to create innovative technical solutions\n-Create, manage, and maintain documentation\n-Work independently and collaboratively with a mentor and/or team\n-Organize and manage assigned tasks in a timely manner\n-Problem solve and critically think through obstacles\n-Apply new knowledge and data to accurately complete assignments\n-Embrace working toward the end goal of helping others live a better quality of life\n\n\n\nQualifications\n\nEducation & Experience:\n\nRequired\n\n      -Enrollment in an accredited bachelor's degree program as a rising Sophomore, Junior, or Senior\n-Enrolled in Computer Science, Engineering, or similar related degree\n-Proficient with code development in a modern functional or object-oriented programming language such as C#, Java, JavaScript, Python, SQL, etc.\n-Must be legally authorized to work in the United States without the need for employment sponsorship, now or at any time in the future\n\n\n\nPreferred\n\n      -Familiar with Agile and Scrum software development processes\n-Work collaboratively and efficiently on a fast-paced international team in a virtual environment\n-Strong academic track record (GPA of 3.0 or above)\n-Relevant work or internship experience in a professional setting (e.g., internships, externships, co-ops, summer positions, school jobs, and others)\n-Relevant course work or research experience relating to internship\n-Experience using Microsoft Office Suite (e.g., Word, Excel, Outlook, PowerPoint, and others)",
+        "skills": [
+          "C#",
+          "Java",
+          "JavaScript",
+          "Python",
+          "SQL"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4100716063&f_E=1%2C2&f_TPR=r604800&geoId=103644278&keywords=Software%20Engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "Tactile Medical",
+        "website": "https://www.tactilemedical.com/",
+        "industry": null,
+        "company_size": null,
+        "headquarters": null,
+        "founded": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "specialties": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "description": "Tactile Medical is one of the fastest growing companies in medical devices. As a leader in treatment options for lymphedema and venous ulcer therapies, Tactile Medical develops advanced home therapy devices to improve health and quality of life for patients with chronic swelling . Headquartered in Minneapolis, Minnesota, we advocate for patient access and serve tens of thousands of patients through a direct national network of product specialists and trainers, reimbursement experts, patient advocates, and clinical staff."
+      }
+    ]
+  },
+  {
+    "scrape_time": "2024-12-21T02:49:35.077298",
+    "keywords": "Software Engineer",
+    "location": "United States",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Software Engineer Intern (Summer 2025)",
+        "company": null,
+        "location": "Greater Minneapolis-St. Paul Area",
+        "country": "United States",
+        "workplace": "Hybrid",
+        "job_type": "Internship",
+        "level": null,
+        "applicants": "100",
+        "salary": "",
+        "posted": "6 days ago",
+        "description": "Overview\n\nTactile Medical is offering internship opportunities for students who are seeking to accelerate their professional experience and career trajectory. Join a  driven  organization that is a  compassionate  leader in helping people living with chronic illnesses live better lives with at home therapy devices.\n\nIn this 11-week internship program, our interns will start out in our corporate headquarters campus in Minneapolis, MN for the first three days to learn from leaders across the entire organization. Our leaders will walk through how each of Tactile's  collaborative  teams identify patients, provide them with care, and ensure their lives are improved. We will provide an exclusively  transparent  view on how we at Tactile  embrace change  by proactively innovating our products, processes, and challenge each other.\n\nAfter the first three days on campus, each intern is paired with a mentor and team to dive into everyone\u2019s specialized internship focus. Our interns will be given an authentic experience by working through real professional scenarios and contributing to meaningful projects. On the final day, our interns will return to campus to celebrate their accomplishments and reflect on how they made a direct impact on helping people live a better quality of life.\n\nProgram Details\n\n      -11-week program, first three days and the last day at our Minneapolis corporate office\n-Full time during normal business hours (40 hours a week, Monday through Friday)\n-Tours of different sites and departments (Manufacturing, Sales, Clinical, and others)\n-One on one mentorship provided for each intern\n-Social and community outreach events\n-Team building and career development activities\n-Gain industry knowledge from a leading medical device company\n-Live our corporate values to help improve peoples' lives\n-Networking with our interns and professionals from a variety of departments\n-Learn from a personal internship to gain applicable professional skills and experience\n-Present internship accomplishments on final day of internship program\n-Competitive hourly pay rate\n-Eligible for contribution towards academic credits\n\n\n\nResponsibilities\n\nPrimary Responsibilities:\n\n      -Develop, debug, and test software in support of the Salesforce CoE team\n-Assist with developing, implementing workflow automation on our Salesforce.com platform using a combination of declarative and programmatic solutions on the platform.\n-Create proof of concept code to evaluate ideas, explore new processes and technologies\n-Support and participate in all phases of the software development life cycle, including requirements analysis, design, implementation, integration, and test of mobile and desktop applications.\n-Assist in technical POCs to create innovative technical solutions\n-Create, manage, and maintain documentation\n-Work independently and collaboratively with a mentor and/or team\n-Organize and manage assigned tasks in a timely manner\n-Problem solve and critically think through obstacles\n-Apply new knowledge and data to accurately complete assignments\n-Embrace working toward the end goal of helping others live a better quality of life\n\n\n\nQualifications\n\nEducation & Experience:\n\nRequired\n\n      -Enrollment in an accredited bachelor's degree program as a rising Sophomore, Junior, or Senior\n-Enrolled in Computer Science, Engineering, or similar related degree\n-Proficient with code development in a modern functional or object-oriented programming language such as C#, Java, JavaScript, Python, SQL, etc.\n-Must be legally authorized to work in the United States without the need for employment sponsorship, now or at any time in the future\n\n\n\nPreferred\n\n      -Familiar with Agile and Scrum software development processes\n-Work collaboratively and efficiently on a fast-paced international team in a virtual environment\n-Strong academic track record (GPA of 3.0 or above)\n-Relevant work or internship experience in a professional setting (e.g., internships, externships, co-ops, summer positions, school jobs, and others)\n-Relevant course work or research experience relating to internship\n-Experience using Microsoft Office Suite (e.g., Word, Excel, Outlook, PowerPoint, and others)",
+        "skills": [
+          "C#",
+          "Java",
+          "JavaScript",
+          "Python",
+          "SQL"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4100716063&f_E=1%2C2&f_TPR=r604800&geoId=103644278&keywords=Software%20Engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "Tactile Medical",
+        "website": "https://www.tactilemedical.com/",
+        "industry": null,
+        "company_size": null,
+        "headquarters": null,
+        "founded": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "specialties": "lymphedema, edema, chronic wounds, chronic swelling, venous insufficiency, and venous ulcers",
+        "description": "Tactile Medical is one of the fastest growing companies in medical devices. As a leader in treatment options for lymphedema and venous ulcer therapies, Tactile Medical develops advanced home therapy devices to improve health and quality of life for patients with chronic swelling . Headquartered in Minneapolis, Minnesota, we advocate for patient access and serve tens of thousands of patients through a direct national network of product specialists and trainers, reimbursement experts, patient advocates, and clinical staff."
+      }
+    ]
+  },
+  {
+    "scrape_time": "2024-12-21T15:31:04.993184",
+    "keywords": "Software Engineer",
+    "location": "United States",
+    "company": null,
+    "posted": [
+      "Past week"
+    ],
+    "workplace": null,
+    "job_type": null,
+    "job_level": [
+      "Internship",
+      "Entry level"
+    ],
+    "benefits": null,
+    "jobs_data": [
+      {
+        "title": "Software Development Intern - Summer 2025",
+        "company": null,
+        "location": "Raleigh, NC",
+        "country": "United States",
+        "workplace": null,
+        "job_type": "Full-time",
+        "level": "Entry level",
+        "applicants": "100",
+        "salary": "",
+        "posted": "Reposted 22 hours ago",
+        "description": "Who We Are:\n\nBandwidth  delivers world-class messaging, voice, and emergency service connectivity for the world\u2019s biggest brands. We are the APIs and global network behind the platforms that the Global 2000\u2019s use to power their internal communications, contact center platforms, apps, and software. We transform interactions for top-tier orgs\u2014and we do it on a global scale. We\u2019re the only ones who marry the power of our global network with the control and agility offered by our enterprise-grade APIs. Unmatched reliability meets unparalleled control. That\u2019s the Bandwidth way.\n\nAt Bandwidth, your music matters when you are part of the BAND. We celebrate differences and encourage BANDmates to be their authentic selves. #jointheband\nWhat We Are Looking For:\nWe are looking for a  Software Development Intern  to join the Software Infrastructure team for Summer 2025. In this role  you\u2019ll get to build and expand the \u201cpaved road\u201d of how software makes its way from our keyboards to our customers. You\u2019ll be responsible for making our Software Engineers happy and productive. We\u2019re looking for people who get excited about building tools and services to improve the day to day experience of Software Engineers.  \nNot sure if you\u2019re 100% qualified? We encourage you to apply and start a conversation! But you should be comfortable writing code, digging around in a terminal, and bouncing complex technical ideas off of teammates.\nWhat You'll Do:\n      \n-Design, build and maintain Bandwidth\u2019s software platform used by our software engineers.  \n\n-Empower our teams to build great software, simply and efficiently.  \n\n-Develop and maintain first class developer tooling.  \n\n-Measurably improve build times and overall developer productivity.  \n\n-Play a critical role in making Bandwidth a great place to be a software engineer.\n\n\n\nWhat You Need:\n      \n-Currently pursuing a Bachelor's degree in Software, Computer Science, Computer Engineering or a similar degree\n\n-Experience in a modern programming language (such as Python, Ruby, JavaScript, Go)  \n\n-Experience with using Git\n\n-A results-driven approach\n\n\n\nBonus Points:\n      \n-Experience or familiarity with cloud services such as AWS  \n\n-Able to work in an environment with independent work and less defined requirements  \n\n-Experience building tools or services used by other developers (OSS projects are great)\n\n\n\nThe Whole Person Promise:\nAt Bandwidth, we\u2019re pretty proud of our corporate culture, which is rooted in our \u201cWhole Person Promise.\u201d We promise all employees that they can have meaningful work AND a full life, and we provide a work environment geared toward enriching your body, mind, and spirit. How do we do that? Well\u2026\nAre you ready for an awesome internship experience? At Bandwidth we\u2019re all about making your time with us fun and fulfilling! Take a break with our 90-minute workout lunch to energize your day, or roll up your sleeves for some cool volunteer activities that give back to our community. You'll also get to meet and connect with our leaders who can share their wisdom and advice. And let\u2019s not forget the fun social activities to bond with your fellow interns!\nJoin us for a summer full of learning, laughter, and new experiences\u2014let\u2019s make some great memories together!\n\n  \nAre you excited about the position and its responsibilities, but not sure if you\u2019re 100% qualified? Do you feel you can work to help us crush the mission? If you answered \u2018yes\u2019 to both of these questions, we encourage you to apply! You won\u2019t want to miss the opportunity to be a part of the BAND.\n<a class=\"xEHeAoReCVFWVBfTqEralWUiaipwGujg \" target=\"_blank\" href=\"https://www.bandwidth.com/employee-applicant-privacy-notice\" data-test-app-aware-link=\"\">Applicant Privacy Notice</a>",
+        "skills": [
+          "Python",
+          "Ruby",
+          "JavaScript",
+          "AWS"
+        ],
+        "link": "https://www.linkedin.com/jobs/view/4074837610"
+      }
+    ],
+    "companies_data": [
+      {
+        "title": "Bandwidth Inc.",
+        "website": "http://www.bandwidth.com",
+        "industry": null,
+        "company_size": null,
+        "headquarters": null,
+        "founded": "mobile phones, business voip, WiFi calling, SIP trunking, VoIP, CLEC, Voice API, App developer platform, SMS API, 911, API platform, software, and MMS API",
+        "specialties": "mobile phones, business voip, WiFi calling, SIP trunking, VoIP, CLEC, Voice API, App developer platform, SMS API, 911, API platform, software, and MMS API",
+        "description": "Bandwidth is the universal communications platform that simplifies how businesses deliver integrated global experiences. It's flexible and ready to integrate with your entire communications stack. It's built on our own global network for unmatched reliability. And it's grounded in both telecom and real-world software expertise. So you can create exceptional experiences for customers\u2014anywhere in the world.\n\nCheck out the platform that Cisco, Google, Microsoft, RingCentral, Uber, Zoom and more use to create unforgettable experiences.\n\nVisit the link below \u2b07\ufe0f to start communicating!"
+      }
+    ]
+  }
+]

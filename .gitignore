@@ -4,4 +4,6 @@ __pycache__
 .vscode
 
 cookies.json
+storage.json
+
 # ^ KEEP COOKIES .JSON HERE, OR ALLOCATE ITS LOCATION TO SOMEWHERE ELSE

@@ -26,6 +26,3 @@ Then run it with:
 ```
 python main.py
 ```
-
-
-

@@ -20,6 +20,7 @@ def append_to_json(job, json_file):
 def append_to_csv(data, csv_file):
     '''Appends data into a csv file, if it isn't found, it is created. The standard name is "data/jobs.csv", it can be changed'''
     # field_names = data.keys()
+ 
     field_names = [key for key in data.keys() if key != "description"]
     
     with open(csv_file, 'a', newline='', encoding='utf-8') as f:
@@ -36,6 +37,7 @@ def export_to_json(json_file, scrap_data):
     except (FileNotFoundError, json.JSONDecodeError):
         existing_data = []
 
+    
     existing_data.append(scrap_data)
 
     # Write back to JSON file

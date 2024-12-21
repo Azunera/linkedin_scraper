@@ -17,6 +17,7 @@ class Job:
     posted:      str | None  # If LinkedIn offers skills, this needs to be set a STR, if its skills are extracted from text, needs to be SET
     description: str | None
     skills:      dict[str] | None
+    link: str | None
 
 @dataclass
 class Company:

@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(
                     The options below offer you specify parameters for search, only --search is mandatory,
                     which is the title/name of the job looking for.\n
                     
-                    Another important point to consider is skills section, the program also will extract the skills keywords
+                    Another important point to consider is skills section,e the program also will extract the skills keywords
                     for each job, but for this the program has to be provided with some keywords, be it at --keywords, or --keywords_path;
                     Filter by skills will let you only find jobs with the skills you are looking for.
                     ''',
@@ -36,8 +36,7 @@ parser.add_argument('--csv_file_location',   type=str,  help='Directory location
 parser.add_argument('--json_file_location',  type=str,  help='Directory location to store json scraped data, default will be a created /data dir in the current dir.')
 
 parser.add_argument('--save_in_database', dest='save_in_database', action='store_true', help='Flags on for storing data in database. IMPORTANT!. In order to access the database, make an .env with the database api, variable named as "DB_API_KEY", then modify db.py to configure the data import')
-
-
+ 
 # <---- Skill parameters section ---->
 parser.add_argument('--filter_by_skills', dest='filter_by_skills', action='store_true', help='Set the scraper so only saves data that contain one of the selected jobs')
 parser.add_argument('--skills_keywords',  type=str,  help='The name of the skills you want to find.', nargs="*")
