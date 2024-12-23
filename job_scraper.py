@@ -202,7 +202,8 @@ class inJobScraper:
                     if page_num > 1:
                         print(f"Page number {page_num} not found. Scraping completed")
                         break
-                    
+                print(f'Scraping page {page_num}')
+                
                 date = datetime.today().strftime("%m_%d_%Y")
         
                 #<---- SCRAPPING LINKEDIN JOB CARD NUMS ---->

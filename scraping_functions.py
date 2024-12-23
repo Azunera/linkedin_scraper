@@ -182,7 +182,6 @@ def parse_company_page(context, page1_html, companies_list):
         return None
     
     company_name = unescape(company_page_node.text()).strip()
-    print(company_name, companies_list)
     if company_name in companies_list:
         return None
     
