@@ -114,7 +114,9 @@ def extract_skills(page, find_skills=False):
 
     return skills_data
 
-def extract_skills_fromdesc(description, predlist, skills_dict): # Import your predlist, or make a variable and set it here
+def extract_skills_fromdesc(description, predlist, skills_dict): 
+    # Import your predlist, or make a variable and set it here
+
     found_words = [] 
     for word in description.split():
         clean_word = word.strip(".,:;?!")
@@ -124,21 +126,6 @@ def extract_skills_fromdesc(description, predlist, skills_dict): # Import your p
             
     return found_words  
 
-# def extract_time():
-    
-#     publish_data = 3
-#     if 'hour' not in publish_data:
-       
-#         if 'day' in publish_data:
-#             multiplier = 1
-#         elif 'week' in publish_data:
-#             multiplier = 7
-#         elif 'month' in publish_data:
-#             multiplier = 30
-   
-    
-
-    # year_data = int(year_data.strip())
 def parse_job_page(page, html: HTMLParser, job_card_num, skills_list, skills_dict):
     '''
     Creates an object from the dataclass 'Job' with parameters found within the given html.
@@ -195,7 +182,7 @@ def parse_company_page(context, page1_html, companies_list):
         return None
     
     company_name = unescape(company_page_node.text()).strip()
-    
+    print(company_name, companies_list)
     if company_name in companies_list:
         return None
     
@@ -278,7 +265,7 @@ def parse_company_page(context, page1_html, companies_list):
     logo_image = download_image(page1_html.css_first('div.jobs-search-results-list__list-item--active div.job-card-list__entity-lockup img').attributes.get('src'))
     
     new_company = Company(
-        title = company_name,       
+        name = company_name,       
         website = website_data,
         industry = industry_data,
         company_size = company_size_data,

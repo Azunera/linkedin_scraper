@@ -43,7 +43,7 @@ class Company(Base):
     __tablename__  = 'company'
     
     id = Column(Integer, primary_key=True)
-    name = Column(String)
+    name = Column(String, unique=True)
     website = Column(String)
     industry = Column(String)
     company_size = Column(String)
@@ -92,9 +92,10 @@ def upload_companies(companies_list) :
         all_companies = get_company_for_linking(all=True)
 
         for company in companies_list:
-            if company[0].title not in all_companies:
+            if company[0].name not in all_companies:
+                print(all_companies, company[0].name)
                 new_company = Company(
-                    name=company[0].title,
+                    name=company[0].name,
                     website=company[0].website,
                     industry= company[0].industry,
                     founded=company[0].founded,
@@ -223,5 +224,5 @@ def get_company_for_linking(company=None, all=False):
             company_data =  [company.name for company in session.query(Company).all()]
     return company_data 
     
-Base.metadata.drop_all(engine)
-initialize_database()
+# Base.metadata.drop_all(engine)
+# initialize_database()

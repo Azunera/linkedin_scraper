@@ -21,7 +21,7 @@ class Job:
 
 @dataclass
 class Company:
-    title:        str  | None
+    name:        str  | None
     website:      str  | None
     industry:     str  | None
     company_size: str  | None

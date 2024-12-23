@@ -1,4 +1,5 @@
 from html import unescape
+import re
 
 def clean_applicant_data(data):
     '''Filters the words "applicants", "applicant", and "Over" from applicant data.'''
@@ -18,17 +19,19 @@ def clean_job_html_description(description_html):
         str: The job description filtered, containing '\\n'. Check inside function for filters
     '''
     
-    banned_elements = ['<p>', '</p>', '<div class=\"job-details-module__content\">\n    ', '<p dir=\"ltr\">', '<!---->', '<span>', '</span>', '<div class="mt4">', '</div>', '<ul>', '</ul>', '<strong>', '</strong>', '<em>', '</em>'  '      ']
+    banned_elements = ['<p>', '</p>', '<div class=\"job-details-module__content\">\n    ', '<p dir=\"ltr\">', '<!---->', '<span>', '</span>', '<div class="mt4">', '</div>', '<ul>', '</ul>', '<strong>', '</strong>', '<em>', '</em>'  '      ', 'data-test-app-aware-link=""',  'target="_blank"']
     # Deleting undesired text
     for element in banned_elements:
         if element in description_html:
             description_html = description_html.replace(element, "")
     
     replacing_elements = [
-        ['<br>', '\n'],
+        # ['<br>', ''],
         ['<span class="white-space-pre">', " "],
         ['<li>', '-'],
-        ['</li>', '\n'],
+        ['</li>', '<br>'],
+        [r'\s*class=".*?"', ''],
+        ['#J-18808-Ljbffrm', '']
         ]
     
 
@@ -36,6 +39,8 @@ def clean_job_html_description(description_html):
         description_html = description_html.replace(element[0], element[1])
 
     description_html = unescape(description_html.strip())
+    
+    description_html =  re.sub(r'\s*class=".*?"', '', description_html)
     
     return description_html
 

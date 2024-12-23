@@ -68,7 +68,7 @@ class inJobScraper:
             print('WARNING! At this point you may need to complete recaptcha')
             page.set_default_timeout(0)
             # page.wait_for_url('https://www.linkedin.com/feed/')
-            page.set_default_timeout(1000000)
+            page.set_default_timeout(0)
             page.locator('input.search-global-typeahead__input').wait_for(state='visible')
 
             if save_cookie:
@@ -84,7 +84,7 @@ class inJobScraper:
 
                     context.add_cookies(cookies)
                     try:
-                        page.set_default_timeout(65000)
+                        page.set_default_timeout(0)
                         time.sleep(10)
                         page.waitforurl('https://www.linkedin.com/feed/')
                         
@@ -126,7 +126,7 @@ class inJobScraper:
         is_first_internship_complete =  False
         for config_list in self.search_config.optional_config:
             if config_list is not None: # used to be  if config_list[0] is not None
-                page.set_default_timeout(20000)
+                page.set_default_timeout(0)
                 for config in config_list:
                     # There are two Internships on linkedin, that's why I use a system to select the second one after the first one was selected
                     
@@ -158,7 +158,7 @@ class inJobScraper:
             browser = p.chromium.launch(headless=headless, slow_mo=slow_mo)
             
             screen_width, screen_height = pyautogui.size()
-            # Check if a saved session exists and load it
+
             if os.path.exists('./storage.json') and os.path.getsize('./storage.json') > 0:
                 print(f"Loading session from {'./storage.json'}")
                 context = browser.new_context(
@@ -171,29 +171,18 @@ class inJobScraper:
                     viewport={"width": screen_width, "height": screen_height},
                 )
 
-            # screen_width, screen_height = pyautogui.size()
-            # context = browser.new_context(
-            #     viewport={'width': screen_width, 'height': screen_height, },
-            # )
+
             page = context.new_page()
             page.set_default_timeout(65000)
             page.goto('https://www.linkedin.com/feed/')
             page.set_default_timeout(0)
 
-            # If no session, login and save the session state
             if not os.path.exists('./storage.json') or os.path.getsize('./storage.json') == 0:
                 page.goto("https://www.linkedin.com/login")
                 self.login(page, context)
-                # Save session state after login
+        
                 context.storage_state(path='./storage.json')
 
-            # # Proceed with the rest of the workflow
-            # self.setting_configs_and_search(page)
-
-            # page.set_default_timeout(0)
-            
-            # page.goto('https://www.linkedin.com/login')
-            # self.login(page, context)
             
             self.setting_configs_and_search(page)
 
@@ -215,7 +204,7 @@ class inJobScraper:
                         break
                     
                 date = datetime.today().strftime("%m_%d_%Y")
-                
+        
                 #<---- SCRAPPING LINKEDIN JOB CARD NUMS ---->
                 for job_card_num in range(0,25): #25 is LinkedIn's max job cards per page
                     job_card = page.locator(f'li.relative.scaffold-layout__list-item:nth-child({job_card_num + 1})')
@@ -242,8 +231,9 @@ class inJobScraper:
         
                     if self.find_companies:
                         new_company_data = parse_company_page(context, html, companies_name_list)
-                        
+        
                         if new_company_data:
+                            companies_name_list.append(new_company_data[0].name)
                             companies_list.append(new_company_data)
                             append_to_csv(asdict(new_company_data[0]), f'data/company_{date}.csv')
                
@@ -259,7 +249,7 @@ class inJobScraper:
             
                 upload_skills(self.skills_dict, self.skills_categories, len(jobs_list))
                 upload_jobs(jobs_list, self.skills_dict, date)
-                    
+            print('saved on database')
 
             scrap_info = asdict(JobScrapeResult(
                 scrape_time = datetime.now().isoformat(),
